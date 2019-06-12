@@ -63,7 +63,7 @@ Tôi đã đạt **"Giải ba Olympic tin học Sinh viên Toàn Quốc"** lúc 
 Nhờ bước đà đó , tôi đã nghiên cứu thêm một số ngôn ngữ từ Python, Nodejs, PHP,... Và hiện tại tôi đang chọn PHP làm ngôn ngữ chính để học thêm và làm việc . Tôi nghiên cứu sâu hơn về PHP tôi đã học một FrameWork của nó là Laravel. Và hiện tại tôi đang làm một web devoloper.Mặc dù trình độ còn rất gà =(( , mong sẽ sớm cải thiện.
 
 **Thế đấy đó là dòng tâm sự của tôi. Tính tới thời điểm hiện tại.
-Time now : {{ site.time | date: "%Y %m %d" }}
+Time now : {{ site.time | date_to_xmlschema: "%Y-%m-%d %H:%M:%S" }}
 Có gì hot sẽ update thêm sau...
 **
 
