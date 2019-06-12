@@ -8,6 +8,6 @@ Tôi tên là Nguyễn Đức Hạnh. Tôi là một web devoloper =)) . Nhưng 
 - Hiện tại tôi đang là sinh viên năm nhất của Trường Đại Học Thủy Lợi
 
 ### Thành tích đạt được
-## - Giải BA Olympic Tin học sinh viên Việt Nam 2018
+#### - Giải BA Olympic Tin học sinh viên Việt Nam 2018
 
 
