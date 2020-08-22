@@ -12,32 +12,51 @@ comments: true
 
 Cái gì cũng thế trước khi học hay làm gì thì ta cũng cần có chút kiến thức nền tảng (cơ mà đi học mấy môn đại cương ở trường tôi thấy mình như tờ giấy trắng 😭😭😭 )
 
-- **[Puppeteer là gì ? Có ăn được không ?](https://github.com/puppeteer/puppeteer/blob/main/README.md)** **Mình thấy series trên khá cơ bản và dễ tìm hiểu với các bạn mới tiếp xúc nhé**
-  - [Làm quen với puppeteer](https://toidicodedao.com/2017/12/12/puppeteer-headless-chrome-api-phan-1/)
-  - [Thực hành với puppeteer](https://toidicodedao.com/2017/12/19/puppeteer-headless-chrome-api-phan-2-cao-du-lieu-kenh14/)
+1. ### **[Puppeteer là gì ? Có ăn được không ?](https://github.com/puppeteer/puppeteer/blob/main/README.md)**
 
-**Puppeteer** là một thư viện rất mạnh mẽ nhưng cũng có vô số API =.= Nhìn mà muốn rối loạn tiền đình luôn 😰 . May mắn là document khá chi tiết và dễ đọc nên cũng được phần nào 🤗🤗🤗 Chứ cứ như ông React (sắp tới sẽ làm việc với thằng này ở Section tiếp) thì có mà mù luôn.
+   **Mình thấy series trên khá cơ bản và dễ tìm hiểu với các bạn mới tiếp xúc nhé**
 
-- API của Puppeteer mà chúng ta cần quan tâm
-  - **puppeteer.launch**: Mở trình duyệt Chrome lên để bắt đầu làm trò. Hàm này trả về object kiểu Browser.
-  - **browser.newPage**: Mở một tab mới trong Chrome để làm trò. Hàm này trả về object kiểu Page.
-  - **browser.close**: Tắt trình duyệt (Đỡ phải tắt bằng tay)
-  - **page.goto** : Đi tới một trang nào đó. Có params waitUntil khá quan trọng. Params này quyết định chúng ta chờ tới khi page vừa mới load xong, hay sau khi page đã load toàn bộ JavaScript và hình ảnh.
-  - **page.screenshot**: Chụp ảnh tab hiện tại, lưu thành file ảnh.
-  - **page.evaluate**: Đây là API quan trọng nhất, cho phép ta chạy script trong browser và lấy kết quả trả về.
-  - **page.type** : Cho phép chúng ta nhập dữ liệu vào input. Xử lý cho đăng nhập, search ,...
-  - **page.click** : Dùng để click vào các nút đã đăng nhập
+- [Làm quen với puppeteer](https://toidicodedao.com/2017/12/12/puppeteer-headless-chrome-api-phan-1/)
+- [Thực hành với puppeteer](https://toidicodedao.com/2017/12/19/puppeteer-headless-chrome-api-phan-2-cao-du-lieu-kenh14/)
+
+- **[Puppeteer](https://github.com/puppeteer/puppeteer/blob/main/README.md)** là một thư viện rất mạnh mẽ nhưng cũng có vô số API =.= Nhìn mà muốn rối loạn tiền đình luôn 😰 . May mắn là document khá chi tiết và dễ đọc nên cũng được phần nào 🤗🤗🤗 Chứ cứ như ông React (sắp tới sẽ làm việc với thằng này ở Section tiếp) thì có mà mù luôn.
+
+  - API của Puppeteer mà chúng ta cần quan tâm
+    - **[puppeteer.launch](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#puppeteerlaunchoptions)**: Mở trình duyệt Chrome lên để bắt đầu làm trò. Hàm này trả về object kiểu Browser.
+    - **[browser.newPage](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#browsernewpage)**: Mở một tab mới trong Chrome để làm trò. Hàm này trả về object kiểu Page.
+    - **[browser.close](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#browserclose)**: Tắt trình duyệt (Đỡ phải tắt bằng tay)
+    - **[page.goto](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#pagegotourl-options)** : Đi tới một trang nào đó. Có params waitUntil khá quan trọng. Params này quyết định chúng ta chờ tới khi page vừa mới load xong, hay sau khi page đã load toàn bộ JavaScript và hình ảnh.
+    - **[page.waitForSelector](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#pagewaitforselectorselector-options)** : Đợi cho đến khi load xong selector nào đó
+    - **[page.evaluate](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#pageevaluatepagefunction-args)**: Đây là API quan trọng nhất, cho phép ta chạy script trong browser và lấy kết quả trả về.
+    - **[page.type](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#pagetypeselector-text-options)** : Cho phép chúng ta nhập dữ liệu vào input. Xử lý cho đăng nhập, search ,...
+    - **[page.click](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#pageclickselector-options)** : Dùng để click vào các nút đã đăng nhập
+    - **[page.close](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#pagecloseoptions)** : Dùng để đóng page
+
+2. ### **[Lodash](https://lodash.com/docs/4.17.15)**
+   Một thư viện giúp chúng ta làm việc đơn giản hơn với array/object
+3. ### **[Moment](https://momentjs.com/docs/)**
+   Làm việc đơn giản hơn với Date Time
+4. ### **[ava](https://www.npmjs.com/package/ava)**
+
+   AVA is a test runner for Node.js
+
+   Example:
+
+   ```
+    const test = require('ava');
+    test('basic', async t => {
+        t.is(3+12, 15);
+    });
+   ```
 
 ## Hành trang :
-
-Với một thân kungfu , ta con phải chuẩn bị ý kẹo bánh mạng đi học nào 🍞 🍖 🍕
 
 Không thể thiếu rồi !!! Đầu tiên là chọn editor. Có nhiều loại lắm, tùy bạn quen dùng loại nào thôi. Còn nếu pro cứ sài notepad nhé :V
 
 - Editor :
-  - [Visual Studio Code](https://code.visualstudio.com/) (recommended) : free, nhẹ, ngon
-  - [Atom](https://atom.io/) : free, ngon, có vẻ hơi nặng
-  - [Sublime Text](https://www.sublimetext.com/): nhẹ
+  - [Visual Studio Code](https://code.visualstudio.com/) (recommended)
+  - [Atom](https://atom.io/)
+  - [Sublime Text](https://www.sublimetext.com/)
   - Vân Vân và Mây Mây :v
 - Môi trường : [Node.js](https://nodejs.org/en/) các bạn cứ tải và cài đặt bản LTS cho ổn định nhé, bạn nào dùng bản cũ mà chưa support [async/await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) thì update lên nhé
   - [Bất đồng bộ trong JavaScript - Callback, Promise đến Observable](https://www.youtube.com/watch?v=qW3raOCefms) Video này của anh Tiep Phan nói rất chi tiết nhé
@@ -171,7 +190,7 @@ module.exports = {
 };
 ```
 
-Bây giờ chúng ta sẽ dùng API goto, type, click của Puppeteer để đăng nhập nhé
+Bây giờ chúng ta sẽ dùng API **[page.goto](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#pagegotourl-options)** ,**[page.type](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#pagetypeselector-text-options)** ,**[page.click](https://github.com/puppeteer/puppeteer/blob/v5.2.1/docs/api.md#pageclickselector-options)** của Puppeteer để đăng nhập nhé
 
 Tạo file _Login.js_ trong **pages** :
 
@@ -239,6 +258,7 @@ test("authenicated", async (t) => {
   const api = new StudentAPI();
   const user = { idUser: "tài khoản", passwordUser: "mật khẩu" };
   await api.Login(user);
+  // Nếu đăng nhập thành công thì giá trị isAuthenicated sẽ trả về true
   t.is(api.isAuthenticated, true);
   t.is(api.user, user);
 });
@@ -256,7 +276,23 @@ Yeahhhhhhhhhhhhh !!!🤟🤟🤟 Chỉ với dòng code ta đã có thể đăng
 
 Sau khi vào được trang: http://dkh.tlu.edu.vn/CMCSoft.IU.Web.Info/Reports/Form/StudentTimeTable.aspx
 
-Chúng ta cũng mở console lên để code thử lấy dữ liệu nào
+![DOMTableTime](https://raw.githubusercontent.com/2ksoft/2ksoft.github.io/master/img/student-api/domtable.png)
+
+Ta có thể nhận thấy cấu trúc DOM:
+
+```
+#gridRegistered tr
+```
+
+Nghĩa là **Row** trong Table sẽ được bao bởi **#gridRegistered** Vì vậy ta chỉ cần **querySelectorAll** sẽ lấy được toàn bộ dữ liệu => Sau đó chuyển NodeList này sang Array
+
+![Du lieu tho](https://raw.githubusercontent.com/2ksoft/2ksoft.github.io/master/img/student-api/DLTho.png)
+
+```
+Mỗi Row(tr) sẽ có nhiều Table Data (tb) lại querySelectorAll như bên trên ta sẽ được dữ liệu thô và đem đi xử lý
+```
+
+Chúng ta cũng mở console lên để code thử lấy dữ liệu và sử lý chúng nào nào
 
 ```
  // Lưu lại dữ liệu về lịch học các môn
