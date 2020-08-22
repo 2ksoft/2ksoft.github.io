@@ -1,12 +1,10 @@
 ---
-layout : post
-title : Lời chào tới thế giới - Hello World
-subtitle : Lời tự sự của bản thân !
-tags : [linhtinh]
-comments : true
+layout: post
+title: Lời chào tới thế giới - Hello World
+subtitle: Lời tự sự của bản thân !
+tags: [linhtinh]
+comments: true
 ---
-
-
 
 ```
 cout << "Hello World" << endl;
@@ -17,12 +15,12 @@ console.log('Hello World'); // Javascript
 
 print('Hello World') // Python
 ```
+
 **Xin chào thế giới - Hello world**
 
 Câu nói trên là gì vậy ta ???
 
 Chính nó là câu nói bất hủ khi học về lập trình =)) . Hầu như lập trình viên nào cũng được học cách in câu đó ra màn hình trong lần học đầu tiên , dù cho họ có học ngôn ngữ lập trình nào đi nữa.Và tôi cũng vậy muốn gửi tới thế giới một lời chào với bao nhiêu mơ ước và hi vọng của mình =)) **Fighting Me !!!** .
-
 
 ## Đôi lời tự sự về bản thân
 
@@ -41,7 +39,6 @@ Không nhớ là lúc nào đó mình có đọc về một bài mod game trên 
 
 Và thế sau quá trình tìm hiểu tôi đã đến được với aichat :)) trang web được dựng bởi WapBuilder Xtgem =)) , cái thời mà wap trên mobile còn đang thịnh hành, các wap mọc lên nhan nhản dù content chẩng có cái méo gì cả :'( . Sau một time tìm hiểu tôi cũng build được cái wap , khổ lắm có sướng gì đâu. Phải up từng file code trong filelist mà các pro đi trước chia sẻ.Có hiểu gì đâu cứ up lên lỗi lại up lại ,chắc cũng tầm chục lần mới thành công ý chứ. Sau nhiều ngày sử dụng tôi cũng biết một chút về code, biết chút về giao diện HTML, CSS. Một thời gian sau khi dùng Xtgem quá chán với việc load quá chậm rồi, timeout thì tôi biết đến WapSeo. Giao diện tiếng việt dễ sử dụng , nhiều template được share. Và rồi dùng leech , leech bài từ các trang khác về.Rồi cũng được một trang khá nhiều content (xin dấu tên vì nội dung không được lành mạnh cho lắm).
 
-
 Và cứ thế mọi thứ trôi qua, tôi lại cắm đầu vào học bài vở trên lớp , vẫn chơi game, vẫn up content wap đều đều. Tôi học được thêm 2 ngôn ngữ mới từ trường cấp 3 là Pascal, C. Một chút về cơ sở dữ liệu với Access. Đến khi WapSeo die thật tôi đã bỏ chẳng học hay nghịch thêm gì về lập trình cả :( .
 
 -Nói thật lập trình chỉ là một thú vui nhỏ thôi ,tôi chỉ muốn học lập trình để phục vụ nhu cầu kinh doanh hay kiếm tiền của mình . Tôi bắt đầu biến dùng linh rút gọn , rồi chèn quảng cáo, rồi nhờ một anh trai rút hộ rồi anh mua thẻ điện thoại gửi cho .Và tôi đã dùng số thẻ đó để đăng kí mạng internet và nạp game :(
@@ -58,7 +55,7 @@ Vì đã phụ sự kì vọng của gia đình trong kì thi đại học.Sau k
 
 Quá trình học tập của tôi ,cũng diễn ra khá tốt. Tôi có nghe nói có một cuộc thi về lập trình trên khoa thông báo thế là tôi tham gia. Đó là **Cuộc thi tin học Sinh viên**, so với các bạn trong lớp ôn luyên tôi xuất phất điểm được coi là thấp nhất (tôi chỉ biết mỗi vài câu syntax if, for,while). Nhưng may mắn thay tôi đã có người thầy rất tận tâm , em cám ơn thầy **Trương Xuân Nam** đã cho em cơ hội. Trong gần 1 tháng tối bắt đầu vừa học syntax vừa ôn luyện để leo rank xếp hạng (hạng cao mới được đi thi). Ngày cuối cùng thì tôi cũng nhận được thông báo của thầy về việc trúng tuyển thi **"Olympic tin học sinh viên Toàn quốc"** Tôi vui lắm và đi thi với sự thoải mái , vì tôi đặt mình ở "kèo dưới" mà. Ngờ đâu rằng tôi lại được giải các bạn ạ
 
-Tôi đã đạt **"Giải ba Olympic tin học Sinh viên Toàn Quốc"** lúc nhận giải tôi vẫn  không tin nổi vào bản thân, tôi đã làm hết khả năng của mình nhưng không nghĩ lại được giải thưởng đó. Đó là giải thưởng lớn nhất mà từ trước tới giờ tôi đã đạt được.
+Tôi đã đạt **"Giải ba Olympic tin học Sinh viên Toàn Quốc"** lúc nhận giải tôi vẫn không tin nổi vào bản thân, tôi đã làm hết khả năng của mình nhưng không nghĩ lại được giải thưởng đó. Đó là giải thưởng lớn nhất mà từ trước tới giờ tôi đã đạt được.
 
 Nhờ bước đà đó , tôi đã nghiên cứu thêm một số ngôn ngữ từ Python, Nodejs, PHP,... Và hiện tại tôi đang chọn PHP làm ngôn ngữ chính để học thêm và làm việc . Tôi nghiên cứu sâu hơn về PHP tôi đã học một FrameWork của nó là Laravel. Và hiện tại tôi đang làm một web devoloper.Mặc dù trình độ còn rất gà =(( , mong sẽ sớm cải thiện.
 
