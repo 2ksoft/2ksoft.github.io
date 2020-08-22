@@ -150,7 +150,7 @@ Về logic xử lý : đầu tiên chúng ta sẽ phải vào trang đăng nhậ
 
 1. Trước hết chúng ta xem qua cấu trúc của cái trang đăng nhập.
 
-![Trang Login](img/student-api/login.png)
+![Trang Login](https://raw.githubusercontent.com/2ksoft/2ksoft.github.io/master/img/student-api/login.png)
 
 Ta dễ dàng nhận thấy một số selector của **_input_** Tài khoản và Mật khẩu, **_Button_** Đăng nhập lần lượt là
 
@@ -345,7 +345,7 @@ Chúng ta cũng mở console lên để code thử lấy dữ liệu nào
 
 Ấn chạy thử nào 😅 mong nó sẽ ra kết quả mong muốn
 
-![Lich hoc](img/student-api/lich-hoc.png)
+![Lich hoc](https://raw.githubusercontent.com/2ksoft/2ksoft.github.io/master/img/student-api/lich-hoc.png)
 
 **Dữ liệu từng môn sẽ có dạng như sau:**
 
